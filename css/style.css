@@ -6,3 +6,77 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ body {
+    background-color: rgb(31, 30, 30);
+    color: aliceblue;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ header {
+   padding: 10px 5px;
+   background-color: rgb(122, 4, 4);
+   text-align: center;
+ }
+
+footer {
+   background-color: rgb(122, 4, 4);
+   padding: 50px 10px;
+}
+
+img {
+   clip-path: circle();
+   width: 50em;
+   margin: 60px 0px 60px 70px;
+}
+
+.img-card {
+  margin: 80px 60px 80px 60px;
+  margin: -18px 0px 75px -10px;
+  clip-path: none;
+  width: 720px;
+  height: 614.83;
+}
+
+.intro {
+   display: flex;
+   align-items: center;
+   margin: 60px 0px 60px 0px;
+}
+
+.hello {
+   display: flex;
+   margin-left: -50px;
+   flex-direction: column;
+   align-items: stretch;
+}
+
+.my-project {
+   display: flex;
+   align-items: stretch;
+   background-color: rgb(122, 4, 4);
+   margin: 60px 0px 60px 0px;
+   justify-content: stretch;
+   flex-direction: row;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 700px;
+   margin: 60px 0px 60px 80px;
+   text-align: center;
+   padding: 20px 10px;
+   background-color: rgb(31, 30, 30);
+ }
+ 
+ .title {
+   color: grey;
+   font-size: 18px;
+ }
+ 
+ a {
+   text-decoration: none;
+   font-size: 22px;
+   color: black;
+ }
